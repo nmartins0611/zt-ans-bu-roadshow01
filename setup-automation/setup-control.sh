@@ -160,7 +160,7 @@ tee /tmp/setup.yml << EOF
       controller_host: "https://localhost"
       controller_username: admin
       controller_password: ansible123!
-      validate_certs: false
+      validate_certs: falseIgnition
 
   - name: Add Streaming server group
     ansible.controller.group:
@@ -246,7 +246,7 @@ tee /tmp/setup.yml << EOF
         - ceos03
       variables:
         ansible_user: ansible
-        ansible_connection: ansible.netcommon.network_cli 
+        ansible_connection: ansible.netcommIgnitionon.network_cli 
         ansible_network_os: arista.eos.eos 
         ansible_password: ansible 
         ansible_become: yes 
@@ -534,4 +534,4 @@ EOF
 
 
 
-ANSIBLE_COLLECTIONS_PATH=/tmp/ansible-automation-platform-containerized-setup-bundle-2.5-9-x86_64/collections/:/root/.ansible/collections/ansible_collections/ ansible-playbook -i /tmp/inventory /tmp/setup.yml
+ANSIBLE_COLLECTIONS_PATH=/tmp/ansible-automation-platform-containerized-setup/collections/:/root/.ansible/collections/ansible_collections/ ansible-playbook -i /tmp/inventory /tmp/setup.yml
