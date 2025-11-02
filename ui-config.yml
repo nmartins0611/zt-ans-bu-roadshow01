@@ -37,7 +37,12 @@ tabs:
     external: true
     modules:
      - module-03
-
+  - name: ">_ control"
+    url: /wetty
+    modules:
+      - module-01
+      - module-02
+      - module-03
 
   # - name: Windows RDP
   #   url: https://windows-ironrdp-${guid}.${domain}/
