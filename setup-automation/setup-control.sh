@@ -212,7 +212,7 @@ tee /tmp/setup.yml << EOF
       inventory: "Edge Network"
       state: present
       enabled: true
-      controller_host: "https://localhost"
+      controller_host: "https://localhost"bh8zb
       controller_username: admin
       controller_password: ansible123!
       validate_certs: false
@@ -224,7 +224,7 @@ tee /tmp/setup.yml << EOF
     ansible.controller.host:
       name: "ceos03"
       description: "Edge Leaf"
-      inventory: "Edge Network"
+      inventory: "Edge Network"bh8zb
       state: present
       enabled: true
       controller_host: "https://localhost"
@@ -534,4 +534,4 @@ EOF
 
 
 
-ANSIBLE_COLLECTIONS_PATH=/tmp/ansible-automation-platform-containerized-setup/collections/:/root/.ansible/collections/ansible_collections/ ansible-playbook -i /tmp/inventory /tmp/setup.yml
+#ANSIBLE_COLLECTIONS_PATH=/tmp/ansible-automation-platform-containerized-setup/collections/:/root/.ansible/collections/ansible_collections/ ansible-playbook -i /tmp/inventory /tmp/setup.yml
