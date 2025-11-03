@@ -98,38 +98,38 @@ virtualmachines:
         tls_termination: reencrypt
         tls_destinationCACertificate: |
           -----BEGIN CERTIFICATE-----
-          MIIF1jCCA76gAwIBAgIUBQZlbUZlOmMKhspO9U4/nTJAXAEwDQYJKoZIhvcNAQEL
+          MIIF1jCCA76gAwIBAgIUPzdhO8K7sZDzrzsDeMjWgckRBAowDQYJKoZIhvcNAQEL
           BQAwgYIxCzAJBgNVBAYTAlVTMRcwFQYDVQQIDA5Ob3J0aCBDYXJvbGluYTEQMA4G
           A1UEBwwHUmFsZWlnaDEQMA4GA1UECgwHUmVkIEhhdDEQMA4GA1UECwwHQW5zaWJs
-          ZTEkMCIGA1UEAwwbQW5zaWJsZSBBdXRvbWF0aW9uIFBsYXRmb3JtMB4XDTI1MDQy
-          MzA4MjEyOVoXDTM1MDQyMTA4MjEyOVowgYIxCzAJBgNVBAYTAlVTMRcwFQYDVQQI
+          ZTEkMCIGA1UEAwwbQW5zaWJsZSBBdXRvbWF0aW9uIFBsYXRmb3JtMB4XDTI1MTAx
+          ODEzMDUyMVoXDTM1MTAxNjEzMDUyMVowgYIxCzAJBgNVBAYTAlVTMRcwFQYDVQQI
           DA5Ob3J0aCBDYXJvbGluYTEQMA4GA1UEBwwHUmFsZWlnaDEQMA4GA1UECgwHUmVk
           IEhhdDEQMA4GA1UECwwHQW5zaWJsZTEkMCIGA1UEAwwbQW5zaWJsZSBBdXRvbWF0
-          aW9uIFBsYXRmb3JtMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA2Ytu
-          a9MM9qr0UBvlIJPXmeSjzQXmx+CJwQAhDoR8MgOkjvWjjEdsX4VHBfQTO58d5sPr
-          oNg95GRe9y9Gjt6Lh7szLk70Q766Ncq8OIBYieiVKctIV+ZZmX7+bBcyzbII/0C9
-          Ili3lNd+XKfl5vmCWoYyuQncC1FZgVpHqZDP/+RCCMThdKEvugbQUmXF6pmEFF7Z
-          8PxYpxnVDX2ipOfWcjZDm6pTBd5+dzXHQVsWe25kY6QW0zEYzPJb3q0gP7oNz1uV
-          rXgYBnKQ8NdoSGtS7w9bvSw28Bf1ZFTvBKeCxWNeoJbiszqdsDd6PEwb4uE1Tr6D
-          qsLfPgvQzngQ+a7YrZ+M6GskQkfk+ZWMK8h6066p27Tzs6/9jMiCFuKwRuKWy9Qi
-          DdCSnwVIw4VB40ysoAHprxBHq4y/YJ2RDiC9EehTXsQf/uAy3M7KBBjVGlMfXxUE
-          NfjbeMdSQip04jKQGhJf8teXTymfcjlGaoCtymB+h4s3hc1T7DjfR0Q1Gd3AIL/p
-          lHOgU4TMBzeghqeDRbY4YQRSI1aF/hzTvAJzMaONs161buKOQ47O5UGGJYHHlJbf
-          aI0s3Mhld1YvIFk78A4tFI9GIwzj4IzVmCv4MZHg2BXKAU6m3Y6bYNabqP6Ho4Fs
-          DZOVkMvwTGKGfRxjdp0kx6HxNmjnVDMXGM9g8cECAwEAAaNCMEAwDgYDVR0PAQH/
-          BAQDAgIEMA8GA1UdEwEB/wQFMAMBAf8wHQYDVR0OBBYEFFugxH0taHxJ0/d71phl
-          a1Vt78fTMA0GCSqGSIb3DQEBCwUAA4ICAQApZCo7gI0xdk2TxjOcq+BdNsOvKjWL
-          ADceDM78oPy0xpgKd2u9INITzIY2f4KGcepXslnlMQQvny80N1LXu9Tkn4rhoU03
-          DXb9bXSr44T3fIf4JFU2iv5Hb6Az/DiQ3o9fZnhpW0AmzR1LmZUuFBJZefFBMMKl
-          s2W9C3f3nUPzi1qrGSXszXXbIDYsRMhax/MxWR9mxITuN3T6PhW8A1LyQ8dWRCLw
-          jFFcNuGjlR8w16XhRCw8uA1RzVwNWoUGvMiapboR25N0DLVCG8qf/mdEI4re8MhM
-          EYHugB/e7vRx6iV9ov7jJSB8BrBPWy/7ncebWIf8OvjM2UcUk0hciAQGD4Udbb3s
-          LGcpjZRJDrnpBdp+CJMCNNjoI0wLbmRDEVPGOSkJSmnj+8VTlQ5s+Dxvj2hh/rq7
-          APwxbIl1YBpTx65KwhacJbXSByk8bnwEQdRo240kC5ggC6twb/vvslRortZtyfqw
-          E/xGAKc9LOIFiqk1f0IU2ssEBvSFvYjypXsGnFITamNN2lMS2k5XQIA4avwWsoO4
-          rRLV87ua9S7g31PTYCMJBGw/B3PXhXjJG/eXgLyhEoUQP/fqeGiPEBzagyo71qL5
-          fH5qke1XR5LFGpndX1GuSVBhdZq94x0aGXWTQCDNIPQ3QtrQ64PBF1vRFdJ6o/FI
-          uEOWpQhGYHMC0A==
+          aW9uIFBsYXRmb3JtMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAlGsn
+          NRp5fWG/8zOPcKAH9vzWSCeSfmtSjI6NtQ8TIwCBuLyP0cO7NCcLNZfJc6VbHpPE
+          D+IVu1ARbvB9X6A33HL8eZy7W8QIhiy/xXhSVYksyvgW01E3jUICWDnru9ib2rCy
+          sSiTEw16l0XaTLdBFx/irLy5v9qnKn/Vp+N/fbr13UXEyMGbgkJ+H95CmGPA5xKo
+          ikRt4/GgPcq6N59DyulkBCzLPQztFPb/MneEwgYQP56Xq0mmEgGguHSnPjMaLFAo
+          ee+OyIeCbM/vorc8BaE8CxVlM9Ks/WTRJZKpsIiR3HHgrd72qoEMd+LYqkCMQ+B4
+          8lPpChn49jky74rYBJ0+DdiZy52YB0FBUHgtDiJupvRic1NfCE2xMxKmkeiczaX4
+          BhDtl2WgWXurpv6tMKvJjQbBNtwXuV3eRrfbznDMH+dAKbQu0gT3hhdXJMKhfVQB
+          e8st+XTTPW+GbQ7HxcP5/Tgz3xO//bnyaqeYk/SZVqkRFGP30+Utpz9JSAMkOYUJ
+          CTF1t/IIM0vPjvOOsUk4sIaI34ZMeZ4eIz+T3gbOQz+J06a8xRmU9tR5urlh48Wp
+          dVHFlX6KjzySTdxLimaA/nNtuHq4fhD/qRTny0fTaJI0IbTEf2bdxHZ6wn3Be+at
+          XMBSSEFxCzl/hFS61aXRiKDk8kLRFzBg30Dot3sCAwEAAaNCMEAwDgYDVR0PAQH/
+          BAQDAgIEMA8GA1UdEwEB/wQFMAMBAf8wHQYDVR0OBBYEFCoUqoKpNH1OY8jz0JZq
+          CgCom8xIMA0GCSqGSIb3DQEBCwUAA4ICAQAC2fxSDzlAKoKAHE4TGeE/fdbBBpB7
+          f4EezkTKcUDoor3j3IfggD6e6hNLzsn7WlTX0DwVjHGtk8jlp3+TxnM/0fy7kK32
+          0L2iT/2gw9zU9mdSBHGlh4Sap5HQsUsfMhrjAcDCOHeCDy5TTLD8VsL7GcRfivrm
+          Lp8lulnU3M2rqj3hM8x2MBknUFyLkgntb1CTxjaLpTFrcjqoZEPg5lPUZTH0tQMd
+          mpQwFEfwMV9tUcjbT3jT2cBb0NWU7jrvO0w9rblIBtTaxewuOLIBLSbieVAB8vxJ
+          NnI235iMorhKBgWy0yXMMTnLdcvEyX7E+LsZEev9jUzKhudfgucpD4E+WFMlTFK4
+          BxrsHsSoq6bNG85+qyvwOccH7u5RGtJUpm6zAeANsCJqkp9ooELXyXaCzRjggjkj
+          fVxa/w/VF6XO6bQD4c5cZ1qjqxcG+IAXV0L0//Ed5Zgq4onXnXDWQ2fra10Ddgoy
+          RyR047qkptwpSC56+0XzmgoXopLti/ArzbpjQmH46fXsKI2QCCfuP8wi3UGaKpjB
+          5qIQHkEke5sou6ebEbfM87p5g4PEqpZHMHyqGAZhimIwMF5kP9TY/5JIHwLYAtIW
+          nF1h8LkYSMKndQyUXY1O5p31b48Qhy9ibaRSQWDD7itU9b3nId/YvISGk6hvT2Cl
+          rzK/kxNUzWubVA==
           -----END CERTIFICATE-----
   - name: "node01"
     image: "rhel-9.5"
